@@ -1,6 +1,9 @@
 DEVICE_PATH := device/asus/X008_1
 VENDOR_PATH := vendor/asus/X008_1
 
+# Inherit from common tree
+include device/asus/mt6737-common/BoardConfig.mk
+
 # Board
 TARGET_BOARD_PLATFORM := mt6737m
 

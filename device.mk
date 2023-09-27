@@ -1,3 +1,6 @@
+# Inherit from common tree
+$(call inherit-product, device/asus/mt6737-common/device.mk)
+
 # Media
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/media/media_codecs_mediatek_audio.xml:system/etc/media_codecs_mediatek_audio.xml \
