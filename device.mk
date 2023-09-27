@@ -1,3 +1,5 @@
+DEVICE_PATH := device/asus/X008_1
+
 # Inherit from common tree
 $(call inherit-product, device/asus/mt6737-common/device.mk)
 
