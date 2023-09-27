@@ -1,0 +1,4 @@
+# MediaTek props
+ro.mediatek.chip_ver=WK3ME1B4-2
+ro.mediatek.platform=MT6737M
+ro.mediatek.version.release=alps-mp-n0.mp1-V1.0.2_gr6737m.65.a.n_P196
