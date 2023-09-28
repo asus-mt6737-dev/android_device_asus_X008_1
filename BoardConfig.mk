@@ -2,13 +2,14 @@ DEVICE_PATH := device/asus/X008_1
 VENDOR_PATH := vendor/asus/X008_1
 
 # Inherit from common tree
-include device/asus/mt6737-common/BoardConfig.mk
+include device/asus/mt6737-common/BoardConfigCommon.mk
 
 # Board
 TARGET_BOARD_PLATFORM := mt6737m
 
 # Kernel
-TARGET_KERNEL_CONFIG := D281L_defconfig
+#TARGET_KERNEL_CONFIG := D281L_defconfig
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/kernel
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := ASUS_X008D
